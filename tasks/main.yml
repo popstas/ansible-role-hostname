@@ -3,7 +3,7 @@
 - name: Hostname | Ensure dbus installed
   apt:
     name: dbus
-    state: installed
+    state: present
   tags: hostname
 
 - name: Hostname | Update the hostname (pt. 1) - hostname cmd
